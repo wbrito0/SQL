@@ -161,7 +161,7 @@ COMMIT
 --após todas alterações feitas
 -- ainda ssim nao conseguimos alterar o tipo da coluna para DATE
 --Exportaremos os dados da coluna data para um arquivo CSV
-select data from Distribuidora.dbo.relatorio_vendas
+select data from relatorio_vendas
 -- vamos abrir no EXCEL
 -- ao usar a filtragem, descobrimos 11 linhas com a data 29/02/2022
 -- foram excluida 11 linhas onde a data era 29/02/2022
